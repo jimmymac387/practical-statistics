@@ -25,6 +25,11 @@ Rectangular data is essentially a two-dimensional matrix with rows indicating re
 
 Unstructured data must be processed and manipulated before it can be represented as a set of features in a rectangular data format
 
+##### Examples of nonrectangular data
+ - Time series data
+ - Spatial data
+ - Graph/network data
+
 ##### Key terms
  - ***Data frame*** - Rectangular data (like a spreadsheet) is the basic data structure for statistical and machine learning models
  - ***Feature (aka variable, predictor, attribute, input)*** - A column in the data frame
@@ -38,13 +43,6 @@ Data frames have one more more columns designated as an index that can help impr
 ##### Comparing terminology between disciplines
  - **Statisticians:** Use *predictor variables* to predict a *response* or *dependent variable*
  - **Data scientists:** Use *features* to predict a *target*
-
-Not all data is rectangular
-
-##### Examples of nonrectangular data
- - Time series data
- - Spatial data
- - Graph/network data
 
 ### Estimates of Location
 A basic step in exploring data is getting a *typical value* for each feature (variable) or an estimate of where most data is located (central tendency)
